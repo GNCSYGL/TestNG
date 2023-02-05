@@ -9,7 +9,7 @@ import techproed.utilities.Driver;
 
 public class Day21_TechProLoginTest {
 
-    @Test
+    @Test(groups = "regression-tests")
     public void loginTest(){
         TechproLoginPage techproLoginPage = new TechproLoginPage();
         TechproHomePage techproHomePage = new TechproHomePage();
